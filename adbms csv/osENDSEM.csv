@@ -1,0 +1,11 @@
+
+" If deadlocks occur frequently, the detection algorithm must be invoked ________."
+ The disadvantage of invoking the detection algorithm for every request is :
+A deadlock eventually cripples system throughput and will cause the CPU utilization to ______.
+"Every time a request for allocation cannot be granted immediately, the detection algorithm is invoked. This will help identify : (choose all that apply)"
+" A computer system has 6 tape drives, with ‘n’ processes competing for them. Each process may need 3 tape drives. The maximum value of ‘n’ for which the system is guaranteed to be deadlock free is :"
+"A system has 3 processes sharing 4 resources. If each process needs a maximum of 2 units then, deadlock"
+" ‘m’ processes share ‘n’ resources of the same type. The maximum need of each process doesn’t exceed ‘n’ and the sum of all their maximum needs is always less than m+n. In this setup, deadlock :"
+" If a new process D requested 30 shares, the admission controller would :"
+"Using EDF algorithm practically, it is impossible to achieve 100 percent utilization due to : (choose all that apply)"
+"A process P1 has a period of 50 and a CPU burst of t1 = 25, P2 has a period of 80 and a CPU burst of 35. The total CPU utilization is :"

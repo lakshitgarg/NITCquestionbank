@@ -82,11 +82,11 @@
             <div id="collapse11" class="panel-collapse collapse">
               <div class="panel-body">
                 <!--a data-toggle="collapse" data-parent="#accordion11" href="#collapse111">Foundations of Computing CS1001&raquo;</a-->
-                <a href="student_csed.php?dept=csed&prog=mca&course=Thermo&courseid=CHEM100">Foundations of Computing CS1001&raquo;</a>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Thermo&courseid=CHEM100">Foundations of Computing CS1001&raquo;</a>
                 <!--div id="collapse111" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <a href="student_csed.php?dept=csed&prog=mca&courseid=cs1001">2011&nbsp;&nbsp;</a>
-                    <a href="student_csed.php?dept=csed&prog=mca&courseid=cs1001">2012&nbsp;&nbsp;</a>
+                    <a href="student_csed.php?dept=csed&prog=MCA&courseid=cs1001">2011&nbsp;&nbsp;</a>
+                    <a href="student_csed.php?dept=csed&prog=MCA&courseid=cs1001">2012&nbsp;&nbsp;</a>
                     <a href="#">2013&nbsp;&nbsp;</a>
                     <a href="#">2014&nbsp;&nbsp;</a>
                     <a href="#">2015&nbsp;&nbsp;</a>
@@ -95,7 +95,7 @@
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse112">Foundations of Computing CS1002&raquo;</a>
                 <div id="collapse112" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <a href="student_csed.php?dept=csed&prog=mca&course=cs1002">2017&nbsp;&nbsp;</a>
+                    <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=cs1002">2017&nbsp;&nbsp;</a>
                     <a href="#">2016&nbsp;&nbsp;</a>
                     <a href="#">2015&nbsp;&nbsp;</a>
                     <a href="#">2014&nbsp;&nbsp;</a>
@@ -484,47 +484,15 @@
             <a data-toggle="collapse" data-parent="#accordion11" href="#collapse21">Semester-1&raquo;</a>
             <div id="collapse21" class="panel-collapse collapse">
               <div class="panel-body">
-                <a href="student_csed.php?dept=csed&prog=mca&course=Thermo&courseid=CHEM100">Foundations of Computing CS1001&raquo;</a>
-                <!--a data-toggle="collapse" data-parent="#accordion11" href="#collapse211">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse211" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div--></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse212">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse212" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse213">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse213" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse214">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse214" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Introduction to Programming&courseid=CS2301">Introduction to Programming</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Logic Design&courseid=CS2001">Logic Design</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Discrete Mathematics&courseid=MA6010">Discrete Mathematics</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Professional Communication&courseid=MS1001">Professional Communication</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Introduction To Programming Laboratory&courseid=CS2391">Introduction To Programming Laboratory</a>
               </div>
             </div>
           </div>
@@ -534,46 +502,13 @@
             <div id="collapse22" class="panel-collapse collapse">
               <div class="panel-body">
                 
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse221">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse221" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse222">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse222" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse223">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse223" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse224">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse224" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Data Structure And Algorithms&courseid=CS2005">Data Structure And Algorithms</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Computer Organization&courseid=CS2004">Computer Organization</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=DATA STRUCTURES LABORATORY&courseid=CS2094">DATA STRUCTURES LABORATORY</a>
+                </br>
+                
               </div>
             </div>
           </div>
@@ -582,47 +517,14 @@
             <a data-toggle="collapse" data-parent="#accordion11" href="#collapse23">Semester-3&raquo;</a>
             <div id="collapse23" class="panel-collapse collapse">
               <div class="panel-body">
-                
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse231">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse231" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse232">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse232" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse233">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse233" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse234">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse234" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Operating System&courseid=CS3003">Operating System</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Database Management System&courseid=CS3002">Database Management Systems</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Database Management System Laboratory&courseid=CS3095">Database Management System Laboratory</a>
+                </br> 
+               
               </div>
             </div>
           </div>
@@ -632,46 +534,13 @@
             <div id="collapse24" class="panel-collapse collapse">
               <div class="panel-body">
                 
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse241">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse241" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse242">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse242" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse243">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse243" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse244">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse244" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=SOFTWARE ENGINEERING&courseid=CS3004">SOFTWARE ENGINEERING</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=Computer Networks&courseid=CS3006">Computer Networks</a>
+                </br>
+                <a href="student_csed.php?dept=Department Of Computer Science And Engineering&prog=MCA&course=OBJECT ORIENTED PROGRAMMING&courseid=CS3301">OBJECT ORIENTED PROGRAMMING</a>
+                </br> 
+
               </div>
             </div>
           </div>
@@ -680,47 +549,9 @@
             <a data-toggle="collapse" data-parent="#accordion11" href="#collapse25">Semester-5&raquo;</a>
             <div id="collapse25" class="panel-collapse collapse">
               <div class="panel-body">
-                
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse251">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse251" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse252">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse252" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse253">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse253" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse254">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse254" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
+
+
               </div>
             </div>
           </div>
@@ -729,46 +560,7 @@
             <div id="collapse26" class="panel-collapse collapse">
               <div class="panel-body">
                 
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse261">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse261" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse262">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse262" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse213">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse213" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse264">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse264" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
               </div>
             </div>
           </div>

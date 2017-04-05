@@ -27,19 +27,24 @@ $a3=$_POST['typ'];
                   $qstring = '?status=err';
                  // echo "paper already exist";
 				}else{
+                    $prevQuery2 = "SELECT cid FROM course WHERE cid = '$a1'";
+                $prevResult2 = $db->query($prevQuery2);
+                if($prevResult2->num_rows > 0){
             $db->query("INSERT INTO paper VALUES ('$a','$a1','$a2','$a3')");
             while(($line = fgetcsv($csvFile)) !== FALSE){
                 $db->query("INSERT INTO pdesc VALUES ('$a','".$line[0]."')");
                 
 				}
 				$qstring = '?status=succ';
-				}
+				}else{
+					 $qstring = '?status=iderr';
+					}
             
            
             fclose($csvFile);
-
+				}
          
-}
+		}
 }}
 
 header("Location: admin.php".$qstring);

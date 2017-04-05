@@ -1,0 +1,11 @@
+
+"Let P(x, y) be a predicate defined as P(x, y) : (x ∨ y) → z. Express the negation of ∀x∃y P(x, y) without “¬” in front of any quantifier."
+Consider “No pigs have wings”. Write this proposition as a quantified predicate.
+What is the DNF of (a −→ b) ∧ (¬a −→ ¬b)?
+What is the DNF of (a −→ b) ∧ (a −→ ¬b)?
+"Let x and y range over all integers. Prove that for all x, y, if xy is even, then at least one of x and y is even."
+Let P and Q be two predicates. Prove that ∀x[P(x) ∧ Q(x)] ⇐⇒ ∀xP(x) ∧ ∀xQ(x).
+Let P and Q be two predicates. Prove that ∀xP(x) ∨ ∀xQ(x) ⇒ ∀x[P(x) ∨ Q(x)]
+Let P and Q be two predicates. Disprove that ∀x[P(x) ∨ Q(x)] ⇒ ∀xP(x) ∨ ∀xQ(x).
+"Prove or disprove the following statement. There exist a and b, where a and b are irrational and a b is rational. [Hint: Use the fact that √ 2 is irrational; a and b don’t have to be distinct.]"
+Let f = p → q. The DNF of f is (p ∧ q) ∨ (¬p ∧ q) ∨ (¬p ∧ ¬q).

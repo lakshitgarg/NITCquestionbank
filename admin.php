@@ -97,9 +97,9 @@ if(!empty($_GET['status'])){
             $statusMsgClass = 'alert-danger';
             $statusMsg = 'Paper already Exist';
             break;
-        case 'invalid_file':
+        case 'iderr':
             $statusMsgClass = 'alert-danger';
-            $statusMsg = 'Please upload a valid CSV file.';
+            $statusMsg = 'Please provide valid course id.';
             break;
         default:
             $statusMsgClass = '';
@@ -140,13 +140,13 @@ if(!empty($_GET['status'])){
       		<center>
             <form action="importData.php" method="post"  enctype="multipart/form-data" id="importFrm" >
 			<br><br><br>
-			<input type="text" name="pprid" placeholder="Paper Id">
+			<input type="text" name="pprid" placeholder="Paper Id" required>
 			<br><br>
-			<input type="text" name="cid" placeholder="Course Id">
+			<input type="text" required name="cid" placeholder="Course Id">
 			<br><br>
-			<input type="text" name="yr" placeholder="Year">
+			<input type="text" name="yr" required placeholder="Year">
 			<br><br>
-			<select name="typ">
+			<select name="typ" required>
 			<option value="T1">T1</option>
 			<option value="T2">T2</option>
 			<option value="ES">End Sem</option>

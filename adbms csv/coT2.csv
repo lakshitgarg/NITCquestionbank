@@ -1,0 +1,12 @@
+
+A RAM chip has a capacity of 1024 words of 8 bits each (1K × 8). The number of 2 × 4 decoders with enable line needed to construct a 16K × 16 RAM from 1K × 8 RAM is
+The amount of ROM needed to implement a 4 bit multiplier is
+Register renaming is done in pipelined processors
+"If the associativity of a processor cache is doubled while keeping the capacity and block size unchanged, which one of the following is guaranteed to be NOT affected?"
+"In a Sequential Logic system, the out put remains even after the input is removed "
+The cause of propagation delay is the time it takes a pulse to get through a logic device 
+"If CS= 24F6 and IP =634A, the physical address is "
+"The instruction MOV CL, [BX][DI]+8 represents the following addressing mode "
+The fundamental conceptual unit in a computer is: 
+"In a 8086/8088 Microprocessor, the unit responsible for getting the instructions
+from memory and loading in the Queue is. "

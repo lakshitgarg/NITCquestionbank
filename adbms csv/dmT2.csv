@@ -1,0 +1,11 @@
+
+Find the DNF of (a −→ b) ∨ c.
+Find the CNF of (a −→ b) ∨ c
+Find the DNF and CNF of a ∧ (b ←→ c)
+Find the DNF and CNF of (a ↔ b) ↔ c from its truth set and falsity set directly.
+"Define sets A = {1, . . . , 10}, B = {3, 7, 11, 12}, C = {0, 1, . . . , 20}. Which of the following are propositions?"
+"If p → q is false, what is the truth value of ((¬p) ∧ q) ←→ (p ∨ q)?"
+Show that ((a ∧ b) −→ c) ⇐⇒ ((a −→ c) ∨ (b −→ c))
+Work out the truth tables for modus ponens to show that it is a logical implication but not an equivalence.
+Simplify (p ∧ (¬r ∨ q ∨ ¬q)) ∨ ((r ∨ t ∨ ¬r) ∧ ¬q)
+Simplify (p ∨ (p ∧ q) ∨ (p ∧ q ∧ ¬r)) ∧ ((p ∧ r ∧ t) ∨ t)

@@ -1,0 +1,11 @@
+
+"If one or more devices use a common set of wires to communicate with the computer system, the connection is called ______."
+A ____ a set of wires and a rigidly defined protocol that specifies a set of messages that can be sent on the wires.
+"When device A has a cable that plugs into device B, and device B has a cable that plugs into device C and device C plugs into a port on the computer, this arrangement is called a _________."
+"The _________ present a uniform device-access interface to the I/O subsystem, much as system calls provide a standard interface between the application and the operating system."
+"A ________ is a collection of electronics that can operate a port, a bus, or a device."
+"An I/O port typically consists of four registers status, control, ________ and ________ registers."
+ The ______ register is read by the host to get input.
+The ______ register is written by the host to send output.
+The hardware mechanism that allows a device to notify the CPU is called _______.
+The CPU hardware has a wire called __________ that the CPU senses after executing every instruction.

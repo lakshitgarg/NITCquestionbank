@@ -2,6 +2,7 @@
 include('../dbConfig.php');
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,7 +78,7 @@ $courseid = $_GET['courseid'];
 ?>
 <div id="set">
 <div class="container">
-  <form class="form-horizontal" method="get" action="student_csed.php">
+  <form class="form-horizontal" method="get" action="showpapers.php">
     <div class="row">
       <center><h1>Search For Papers</h1></center><br>
         <h4>Department</h4>
@@ -93,7 +94,7 @@ $courseid = $_GET['courseid'];
         <select name="year">
           <option value="null">Select Year</option>
           <?php
-          $q="select year from paper where cid='CHEM100'";
+          $q="select year from paper where cid='$courseid'";
 
           $q1=$db->query($q);
           while($row=$q1->fetch_assoc())
@@ -107,11 +108,11 @@ $courseid = $_GET['courseid'];
           }
         ?>
         </select>
-        <select name="paper">
-          <option value="null">Select Paper</option>
-          <option value="t1">Test-1</option>
-          <option value="t2">Test-2</option>
-          <option value="endsem">End Sem</option>
+        <select name="papertyp">
+          <option value="null">Select Paper type</option>
+          <option value="T1">Test-1</option>
+          <option value="T2">Test-2</option>
+          <option value="ENDSEM">End Sem</option>
         </select>
         <div class="text-center">
           <button class="btn btn-danger " name="submit" value="submit" type="submit" >Search</button>
@@ -123,27 +124,4 @@ $courseid = $_GET['courseid'];
 </div>
 </body>
 </head>
-<?php
-if(isset($_GET['submit']))
-{
-  $dept = $_GET['dept'];
-  $prog = $_GET['prog'];
-  $course = $_GET['course'];
-  $courseid = $_GET['courseid'];
-  $year = $_GET['year'];
-  $paper = $_GET['paper'];
-  /*if($year == "null")
-  {
-    echo "<script>alert('$year')</script>";
-    exit(0);
-  }
-  if($paper == "null")
-  {
-    echo "<script>alert('Please Select Paper')</script>";
-    exit(0);
-  }*/
-  echo "<script>alert('$year')</script>";
-  echo "<script>alert('$paper')</script>";
-  
-}
-?>
+

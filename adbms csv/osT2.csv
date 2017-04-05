@@ -1,0 +1,13 @@
+
+"The _________ determines the cause of the interrupt, performs the necessary processing and executes a return from the interrupt instruction to return the CPU to the execution state prior to the interrupt."
+"The _________ are reserved for events such as unrecoverable memory errors.
+a) nonmaskable interrupts"
+ An un-interruptible unit is known as :
+The TestAndSet instruction is executed :
+Semaphore is a/an _______ to solve the critical section problem.
+ Spinlocks are ?
+The main disadvantage of spinlocks is that :
+"The code that changes the value of the semaphore is :
+"
+The wait-for graph is a deadlock detection algorithm that is applicable when :
+ An edge from process Pi to Pj in a wait for graph indicates that :

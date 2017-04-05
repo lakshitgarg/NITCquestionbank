@@ -1,0 +1,13 @@
+
+"The amount of time required to read a block of data from a disk into memory is composed of seek time, rotational latency, and transfer time. Rotational latency refers to "
+"If a magnetic disc has 100 cylinders, each containing 10 tracks of 10 sectors, and each sector can contain 128 bytes, what is the maximum capacity of the disk in bytes?"
+According to the specifications of a particular hard disk a seek takes 3 msecs (thousandths of a second) between adjacent tracks. If the disk has 100 cylinders how long will it take for the head to move from the innermost cylinder to the outermost cylinder. 
+What characteristic of RAM memory makes it not suitable for permanent storage? 
+Part of the operating system is usually stored in ROM so that it can be used to boot up the computer. ROM is used rather than RAM because
+"A given memory chip has 12 address pins and 4 data pins. It has the following
+number of locations. "
+RAM is called DRAM(Dynamic RAM) when 
+Which of the following is Non-Volatile memory? 
+Two’s complement notation is frequently used for internal representation of 
+"If the ASCII code for A is 1000001, B is 1000010, and C is 1000011 then the string
+100001110000011000010 represents: "
