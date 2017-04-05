@@ -37,6 +37,20 @@
       padding-top: 200px; 
     }
   }
+  .blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: darkgreen;
+    }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
   </style>
 </head>
 <body>
@@ -44,7 +58,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-brand">
-      <a href="index.php"><img alt="Brand" src="../images/logo.png" width="30"></a>
+      <a href="../index.php"><img alt="Brand" src="../images/logo.png" width="30"></a>
     </div>
     <a href="../index.php" class="navbar-brand" style="margin:  10px 10px 10px 0px;">NITC QuestionBank</a>
     <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -56,7 +70,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://nitc.ac.in" style="margin:  10px 10px 10px 0px;">NITC Home</a></li>
         <li><a href="#register" style="margin:  10px 10px 10px 0px;">About Us</a></li>
-        <li><a href="../login.php"><button type="button" class="btn btn-danger">Login</button></a></li>
+        <li><a href="../login.php"><button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-log-in">&nbsp;Login</button></a></li>
       </ul>
     </div>
   </div>
@@ -65,6 +79,8 @@
 <div class="set">
 <center><h1>DEPARTMENT OF COMPUTER SCIENCE</center></h1>
 <center><h3>Program</h3></center>
+
+<center><h3 class="blink_text">Right now only MCA papers are Available*</h3></center>
 <div class="container">
   <div class="panel-group" id="accordion1">
     
@@ -575,7 +591,7 @@
           <span class="glyphicon glyphicon-hand-right"></span>&nbsp;&nbsp;M.Tech</a>
         </h4>
       </div>
-      <div id="collapse3" class="panel-collapse collapse">
+      <!--div id="collapse3" class="panel-collapse collapse">
         <div class="panel-body">
           
           <div class="panel-group" id="accordion111">
@@ -584,45 +600,13 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse311">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse311" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse312">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse312" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse313">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse313" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse314">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse314" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
               </div>
             </div>
           </div>
@@ -633,25 +617,9 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse321">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse321" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse322">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse322" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse323">Foundations of Computing CS1001&raquo;</a>
                 <div id="collapse323" class="panel-collapse collapse">
                   <div class="panel-body">
@@ -661,17 +629,7 @@
                     <a href="#">2014&nbsp;&nbsp;</a>
                     <a href="#">2013&nbsp;&nbsp;</a>
                   </div>
-                </div></br>
-                <a data-toggle="collapse" data-parent="#accordion11" href="#collapse324">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse324" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
               </div>
             </div>
           </div>
@@ -682,45 +640,13 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse331">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse331" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse332">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse332" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse333">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse333" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse334">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse334" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
               </div>
             </div>
           </div>
@@ -731,50 +657,18 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse341">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse341" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse342">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse342" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse343">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse343" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse344">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse344" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div-->
     </div>
 
 
@@ -785,7 +679,7 @@
           <span class="glyphicon glyphicon-hand-right"></span>&nbsp;&nbsp;Ph.D</a>
         </h4>
       </div>
-      <div id="collapse4" class="panel-collapse collapse">
+      <!--div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body">
 
           <div class="panel-group" id="accordion111">
@@ -794,45 +688,14 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse411">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse411" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse412">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse412" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                 
+                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse413">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse413" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse414">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse414" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
               </div>
             </div>
           </div>
@@ -843,45 +706,13 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse421">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse421" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse422">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse422" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse423">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse423" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse424">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse424" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
               </div>
             </div>
           </div>
@@ -892,45 +723,14 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse431">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse431" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2013&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse432">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse432" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+               
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse433">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse433" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse434">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse434" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
               </div>
             </div>
           </div>
@@ -941,50 +741,18 @@
               <div class="panel-body">
                 
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse441">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse441" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse442">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse442" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse443">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse443" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
                 <a data-toggle="collapse" data-parent="#accordion11" href="#collapse444">Foundations of Computing CS1001&raquo;</a>
-                <div id="collapse444" class="panel-collapse collapse">
-                  <div class="panel-body">
-                    <a href="#">2017&nbsp;&nbsp;</a>
-                    <a href="#">2016&nbsp;&nbsp;</a>
-                    <a href="#">2015&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                    <a href="#">2014&nbsp;&nbsp;</a>
-                  </div>
-                </div></br>
+                
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div-->
     </div>
 
   </div>

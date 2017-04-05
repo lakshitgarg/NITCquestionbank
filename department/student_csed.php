@@ -51,9 +51,9 @@ include('../dbConfig.php');
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-brand">
-      <a href="index.php"><img alt="Brand" src="images/logo.png" width="30" /></a>
+     <img alt="Brand" src="../images/logo.png" width="30" /></a>
     </div>
-    <a href="index.php" class="navbar-brand" style="margin:  10px 10px 10px 0px;">NITC QuestionBank</a>
+    <a href="#" class="navbar-brand" style="margin:  10px 10px 10px 0px;">NITC QuestionBank</a>
     <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
@@ -63,7 +63,7 @@ include('../dbConfig.php');
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://www.nitc.ac.in" style="margin:  10px 10px 10px 0px;">NITC Home</a></li>
         <li><a href="department/abc.php" style="margin:  10px 10px 5px 0px;">About Us</a></li>
-        <li><a href="index.php">
+        <li><a href="../index.php">
             <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-lock">&nbsp;Logout</button></a>
         </li>
       </ul>
@@ -78,7 +78,7 @@ $courseid = $_GET['courseid'];
 ?>
 <div id="set">
 <div class="container">
-  <form class="form-horizontal" method="get" action="showpapers.php">
+  <form class="form-horizontal" method="post" action="showpapers.php">
     <div class="row">
       <center><h1>Search For Papers</h1></center><br>
         <h4>Department</h4>
@@ -102,17 +102,17 @@ $courseid = $_GET['courseid'];
             
             //echo $row['year'];
             ?>
-          
-          <option value="<?php echo $row['year'];?>"><?php echo $row['year'];?></option>
-          <?php
+            <option value="<?php echo $row['year'];?>"><?php echo $row['year'];?></option>
+            <?php
           }
         ?>
         </select>
+		  <h4>Paper Type</h4>
         <select name="papertyp">
-          <option value="null">Select Paper type</option>
+          <option value="null">Select Paper</option>
           <option value="T1">Test-1</option>
           <option value="T2">Test-2</option>
-          <option value="ENDSEM">End Sem</option>
+          <option value="ES">End Sem</option>
         </select>
         <div class="text-center">
           <button class="btn btn-danger " name="submit" value="submit" type="submit" >Search</button>

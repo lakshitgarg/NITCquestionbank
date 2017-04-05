@@ -8,6 +8,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+  #templatemo_footer {
+width: 100%;
+border-top: 2px solid #507f9a;
+height: 50px;
+background: red;
+float: left;
+}
+#templatemo_footer p {
+padding-top: 20px;
+color: #F3F3F3;
+text-align: center;
+}
+  
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
@@ -175,7 +188,7 @@
               </div>
             </div>
           </div>
-          <a href="department/arch.php"><button type="button" class="btn btn-danger">Question Papers</button></a>
+          <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a>
         </div>
       </div>
     </div>
@@ -231,7 +244,7 @@
               </div>
             </div>
           </div>
-          <a href="department/bio.php"><button type="button" class="btn btn-danger">Question Papers</button></a> 
+          <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a> 
         </div>
       </div>
     </div>
@@ -279,7 +292,7 @@
               </div>
             </div>
           </div>
-          <a href="department/civil.php"><button type="button" class="btn btn-danger">Question Papers</button></a> 
+          <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a> 
         </div>
       </div>
     </div>
@@ -315,7 +328,7 @@
               </div>
             </div>
           </div>
-          <a href="department/chem.php"><button type="button" class="btn btn-danger">Question Papers</button></a> 
+          <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a> 
         </div>
       </div>
     </div>
@@ -351,7 +364,7 @@
               </div>
             </div>
           </div>
-          <a href="department/elec_comm.php"><button type="button" class="btn btn-danger">Question Papers</button></a>
+          <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a>
         </div>
       </div>
     </div>
@@ -387,7 +400,7 @@
               </div>
             </div>
           </div>
-          <button type="button" class="btn btn-danger">Question Papers</button> 
+         <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a>
         </div>
       </div>
     </div>
@@ -423,7 +436,7 @@
               </div>
             </div>
           </div>
-          <button type="button" class="btn btn-danger">Question Papers</button> 
+          <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a>
         </div>
       </div>
     </div>
@@ -459,7 +472,7 @@
               </div>
             </div>
           </div>
-          <button type="button" class="btn btn-danger">Question Papers</button> 
+          <a href="willbe.html"><button type="button" class="btn btn-danger">Question Papers</button></a>
         </div>
       </div>
     </div>
@@ -509,4 +522,9 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
+<div id="templatemo_footer" style="background-color:black">
+    <div>
+        <p id="footer" style="color: white">NITC Question Bank Maintained by PRALAS</p>
+    </div>
+</div>
 </html>

@@ -99,7 +99,7 @@ if(!empty($_GET['status'])){
             break;
         case 'iderr':
             $statusMsgClass = 'alert-danger';
-            $statusMsg = 'Please provide valid course id.';
+            $statusMsg = 'Please provide valid course Code.';
             break;
         default:
             $statusMsgClass = '';
@@ -142,7 +142,7 @@ if(!empty($_GET['status'])){
 			<br><br><br>
 			<input type="text" name="pprid" placeholder="Paper Id" required>
 			<br><br>
-			<input type="text" required name="cid" placeholder="Course Id">
+			<input type="text" required name="cid" placeholder="Course Code" />
 			<br><br>
 			<input type="text" name="yr" required placeholder="Year">
 			<br><br>

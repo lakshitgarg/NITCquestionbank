@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nitc Question Bank</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+   .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+   }
+   /* Hide the carousel text when the screen is less than 600 pixels wide */
+   @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+   }
+   #set{
+  padding-top: 100px;
+  }
+  
+  @media (max-width: 600px) {
+    .set {
+      padding-top: 100px; 
+    }
+  }
+  
+  .blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: darkgreen;
+    }
+
+    @keyframes blinker {  
+     0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+     }
+  
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="index.php"><img alt="Brand" src="images/logo.png" width="30" /></a>
+    </div>
+    <a href="index.php" class="navbar-brand" style="margin:  10px 10px 10px 0px;">NITC QuestionBank</a>
+    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://www.nitc.ac.in" style="margin:  10px 10px 10px 0px;">NITC Home</a></li>
+        <li><a href="department/abc.php" style="margin:  10px 10px 5px 0px;">About Us</a></li>
+        <li><a href="login.php">
+            <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-log-in"> Login</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="set">
+<center><h3 class="blink_text">Currently Not Available, will be Added soon*</h3></center>
+</div>

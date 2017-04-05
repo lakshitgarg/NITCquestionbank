@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
   <style>
     .navbar {
       margin-bottom: 0;
@@ -69,8 +70,8 @@
   <form class="form-horizontal" method="get" action="search.php">
     <div class="row">
       <center><h1>Search Question</h1></center><br>
-      	<h4>Course Id:</h4>
-        <input type="text" class="form-control" id="sid" name="sid" required placeholder="Enter Paper Id"></br>
+      	<h4>Course Code:</h4>
+        <input type="text" class="form-control" id="sid" name="sid" required placeholder="Enter Course Code"></br>
         <h4>Keyword</h4>
         <input type="text" class="form-control" id="kw" name="kw" required placeholder="Enter Keyword"></br>
         <div class="text-center">
@@ -83,11 +84,12 @@
 </div>
 </body>
 <br><br>
-<div class="table-responsive">
-<table border="2" align="center">
+
+
+<table class="table table-hover">
 	<tbody>
 		<tr align="center">
-			<td><h3>Course Id</h3></td>
+			<td><h3>Course Code</h3></td>
 			<td><h3>Question No</h3></td>
 			<td><h3>Year</h3></td>
 			<td><h3>Exam Type</h3></td>
@@ -103,24 +105,30 @@ if(isset($_GET['sk']))
 	$b=$_GET['kw'];
 	
 	$prevQuery = "SELECT pprid,year,type FROM paper WHERE cid = '$a'";
+	
     $prevResult = $db->query($prevQuery);
+
     $c=0;
     if($prevResult->num_rows > 0)
     {
+		
 		while($row=$prevResult->fetch_assoc())
 		{
+			
 			$year = $row['year'];
 			$type = $row['type'];
 			$q="SELECT qstn FROM pdesc WHERE MATCH(qstn) Against('$b') and pprid='".$row['pprid']."'";
+			
 		    $q1=$db->query($q);
 			if($q1->num_rows>0)
 			{
+				
 				$i=1;
 				while($row2=$q1->fetch_assoc())
 				{
 					$c++;
 					?>
-					<tr>
+					<tr align="center">
 						<td align="center"><?php echo $a;?> </td>
 						<td align="center"><?php echo $i++;?></td>
 						<td align="center"><?php echo $year;?> </td>
@@ -134,10 +142,11 @@ if(isset($_GET['sk']))
 	}
 	if($c==0)
 		{
-			echo "<script>alert('Search not founded')</script>";
+			echo "<script>alert('Enter Valid Details')</script>";
 			exit(0);
 		}
 }
 ?>
-</div>
 </table>
+
+
